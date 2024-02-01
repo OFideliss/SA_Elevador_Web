@@ -7,89 +7,88 @@
         }
 
         .predio {
-            width: 300px;
-            height: 500px;
+            width: 500px;
+            height: 540px;
             background-color: #ccc;
             position: relative;
         }
 
-        .x1Andar{
+        .x1Andar {
             width: 100%;
-            height: 50px;
-            border-bottom: 1px solid black;
-            box-sizing: border-box;
-            background-color: #999;
-        }
-        .x2Andar{
-            width: 100%;
-            height: 50px;
-            border-bottom: 1px solid black;
-            box-sizing: border-box;
-            background-color: #999;
-        }
-        .x3Andar{
-            width: 100%;
-            height: 50px;
-            border-bottom: 1px solid black;
-            box-sizing: border-box;
-            background-color: #999;
-        }
-        .x4Andar{
-            width: 100%;
-            height: 50px;
+            height: 60px;
             border-bottom: 1px solid black;
             box-sizing: border-box;
             background-color: #999;
         }
 
-        .x5Andar{
+        .x2Andar {
             width: 100%;
-            height: 50px;
-            border-bottom: 1px solid black;
-            box-sizing: border-box;
-            background-color: #999;
-        }
-        .x6Andar{
-            width: 100%;
-            height: 50px;
+            height: 60px;
             border-bottom: 1px solid black;
             box-sizing: border-box;
             background-color: #999;
         }
 
-        .terreo{
+        .x3Andar {
             width: 100%;
-            height: 50px;
+            height: 60px;
+            border-bottom: 1px solid black;
+            box-sizing: border-box;
+            background-color: #999;
+        }
+
+        .x4Andar {
+            width: 100%;
+            height: 60px;
+            border-bottom: 1px solid black;
+            box-sizing: border-box;
+            background-color: #999;
+        }
+
+        .x5Andar {
+            width: 100%;
+            height: 60px;
+            border-bottom: 1px solid black;
+            box-sizing: border-box;
+            background-color: #999;
+        }
+
+        .x6Andar {
+            width: 100%;
+            height: 60px;
+            border-bottom: 1px solid black;
+            box-sizing: border-box;
+            background-color: #999;
+        }
+
+        .terreo {
+            width: 100%;
+            height: 60px;
             border-bottom: 1px solid #999;
             box-sizing: border-box;
             background-color: #ceb387;
         }
 
-        .x1Subsolo{
+        .x1Subsolo {
             width: 100%;
-            height: 50px;
-            border-bottom: 1px solid black;
-            box-sizing: border-box;
-            background-color: #775010;
-        }
-        .x1Subsolo{
-            width: 100%;
-            height: 50px;
-            border-bottom: 1px solid black;
-            box-sizing: border-box;
-            background-color: #775010;
-        }
-        .x2Subsolo{
-            width: 100%;
-            height: 50px;
+            height: 60px;
             border-bottom: 1px solid black;
             box-sizing: border-box;
             background-color: #775010;
         }
 
-        .ground-floor {
-            background-color: #e0d1ac;
+
+        .x2Subsolo {
+            width: 100%;
+            height: 60px;
+            border-bottom: 1px solid black;
+            box-sizing: border-box;
+            background-color: #775010;
         }
+
+         .ground-floor {
+            background-color: #e0d1ac;
+        } 
 
         .basement {
             background-color: #4d4d4d;
@@ -98,16 +97,16 @@
         .elevator {
             width: 80px;
             height: 50px;
-            background-color: #3498db;
+            /* background-color: #3498db; */
             position: absolute;
             bottom: 0;
-            transition: bottom 0.5s ease;
+            transition: bottom 3s ease;
         }
 
         .elevator1 {
-            left: 50px;
+            left: 80px;
         }
 
         .elevator2 {
-            left: 150px;
+            left: 400px;
         }
