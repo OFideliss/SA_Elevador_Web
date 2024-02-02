@@ -1,4 +1,12 @@
         body {
+            background-image: url('img/Img_Paisagem.png');
+            /* Substitua pelo caminho da sua imagem */
+            background-size: cover;
+            /* Isso garante que a imagem cubra todo o corpo */
+            background-position: center;
+            /* Isso centraliza a imagem no corpo */
+            background-repeat: no-repeat;
+            /* Isso evita a repetição da imagem */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -11,6 +19,10 @@
             height: 540px;
             background-color: #ccc;
             position: relative;
+            position: fixed;
+            /* Define a posição como fixa */
+            bottom: 0;
+            /* Mantém o prédio na parte inferior da tela */
         }
 
         .x1Andar {
@@ -86,9 +98,9 @@
             background-color: #775010;
         }
 
-         .ground-floor {
+        .ground-floor {
             background-color: #e0d1ac;
-        } 
+        }
 
         .basement {
             background-color: #4d4d4d;
@@ -109,4 +121,45 @@
 
         .elevator2 {
             left: 400px;
+        }
+
+        .Janelas {
+            width: 150px;
+            height: 50px;
+            position: absolute;
+            left: 150px;
+        }
+
+        .Janelas2 {
+            width: 150px;
+            height: 50px;
+            position: absolute;
+            left: 250px;
+        }
+
+        .Trilhos {
+            width: 70px;
+            height: 540px;
+            position: absolute;
+            left: 80px;
+        }
+        .Trilhos2 {
+            width: 70px;
+            height: 540px;
+            position: absolute;
+            left: 400px;
+        }
+        
+        .Recepcao {
+            width: 180px;
+            height: 50px;
+            position: absolute;
+            left: 180px;
+        }
+
+        .Estacionamento {
+            width: 270;
+            height: 56px;
+            position: absolute;
+            left: 138px;
         }

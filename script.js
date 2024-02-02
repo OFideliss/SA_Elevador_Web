@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const targetFloor = parseInt(button.dataset.targetFloor);
             const elevator = findNearestElevator(targetFloor);
             moveElevator(elevator, parseInt(elevator.dataset.currentFloor), targetFloor);
+            
         });
     });
 
